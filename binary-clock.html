@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title></title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P|Wallpoet" rel="stylesheet">
+      <style>
+         body { margin:0; padding:0; font-size:14px; font-family:"Press Start 2P","Open Sans", "Helvetica Neue", Helvetica, sans-serif; background-color:#000; color:#00ff00; }
+         h1, h2, h3, h4, h5, input, select, button, textarea { font-family:"Press Start 2P",cursive; text-align:center; }
+         a { text-decoration:none;color:#00c; }
+         a:hover { text-decoration:underline; }
+         a:visited { color:#006; }
+         a:active { color:#e00;display:inline-block;top:2px; }
+         #main { margin:1em; }
+         #clock { margin: 1em auto; }
+         h1 { margin: 2em; }
+         td { text-align:center; padding:.5em 1em; }
+         .colon { vertical-align:bottom; font-size:2em;}
+         .digits { font-size:2em; font-family: "Wallpoet",cursive;}
+         .bit {font-size:.75em; }
+      </style>
+  </head>
+   <body>
+      <div id='main'>
+         <h1>Binary Clock</h1>
+         <table id='clock'>
+            <tbody id='clockbody'>
+               <tr>
+                  <td class='bit'>Bit</td>
+                  <td colspan="2">Hour</td>
+                  <td class='colon' rowspan="8">:</td>
+                  <td colspan="2">Minute</td>
+                  <td class='colon' rowspan="8">:</td>
+                  <td colspan="2">Second</td>
+                  <td class='bit'>Bit</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
+   <script src="binary-clock.js"></script>
+</html>
