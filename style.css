@@ -55,11 +55,20 @@ td {
    background-color:#ff0000;
 }
 .no_h, .nored {
-   background-color:#330000;
+   background-color:#220000;
+   opacity: .4;
+border:3px outset #ccc; 
+border-radius:2.2rem; 
 }
 
 .m { background-color:#00ff00; }
-.no_m { background-color:#003300; }
+.no_m { background-color:#002200; opacity: .4;
+border:3px outset #ccc; 
+border-radius:2.2rem; 
+}
 
 .s { background-color:#ffff00; }
-.no_s { background-color:#333300; }
+.no_s { background-color:#222200; opacity:.4; 
+border:3px outset #ccc; 
+border-radius:2.2rem; 
+}
